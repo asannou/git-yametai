@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+svnadmin create /tmp/svnrepos
+svn mkdir file:///tmp/svnrepos/trunk file:///tmp/svnrepos/branches file:///tmp/svnrepos/tags -m 'initial commit'
+git svn init -s file:///tmp/svnrepos
+git svn fetch
+git HEADをsvnのtrunkに同期したい
