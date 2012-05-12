@@ -1,7 +1,0 @@
-#!/bin/sh
-
-set -e
-
-git checkout trunk
-git pull origin HEAD
-git svn dcommit
