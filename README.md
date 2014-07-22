@@ -1,5 +1,6 @@
 git-yametai
 ===========
 
-ababa
-oboboobo
+* ababa
+* oboboobo
+* boooooooooooooo
